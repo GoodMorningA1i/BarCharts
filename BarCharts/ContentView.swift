@@ -28,6 +28,11 @@ struct ContentView: View {
                 .foregroundStyle(.pink.gradient)
             }
             .frame(height: 300)
+            .chartXAxis {
+                AxisMarks(values: viewMonths.map { $0.date }) { date in
+                    AxisValueLabel(format: .dateTime.month(), centered: true)
+                }
+            }
 
         }
         .padding()
