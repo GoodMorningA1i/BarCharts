@@ -1,4 +1,4 @@
-# Swipe-a-Cat
+# Bar Chart
 
 ## About the Project
 
