@@ -17,6 +17,8 @@ struct ContentView: View {
     ]
     
     var body: some View {
+        Text("Youtube Total Views")
+        
         VStack {
             Chart {
                 ForEach(viewMonths) { viewMonth in
